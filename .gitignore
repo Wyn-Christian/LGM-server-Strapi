@@ -87,13 +87,13 @@ $RECYCLE.BIN/
 # Node.js
 ############################
 
-lib-cov
-lcov.info
-pids
-logs
-results
+# lib-cov
+# lcov.info
+# pids
+# logs
+# results
 node_modules
-.node_history
+# .node_history
 
 ############################
 # Tests
@@ -107,9 +107,9 @@ coverage
 ############################
 
 # .env
-license.txt
-exports
-*.cache
+# license.txt
+# exports
+# *.cache
 dist
 build
 .strapi-updater.json

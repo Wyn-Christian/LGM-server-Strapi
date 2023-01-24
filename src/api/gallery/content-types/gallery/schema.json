@@ -12,18 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "pb-overlay",
-        "pb-raw",
-        "photography",
-        "venue-styling",
-        "grazing-table",
-        "groupies",
-        "reviews"
-      ]
-    },
     "images": {
       "type": "media",
       "multiple": true,

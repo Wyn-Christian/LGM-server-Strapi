@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_package_2023s",
+  "info": {
+    "displayName": "2023",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "details": {
+      "type": "json"
+    }
+  }
+}
