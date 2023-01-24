@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "people",
+  "info": {
+    "singularName": "person",
+    "pluralName": "people",
+    "displayName": "Person"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "role": {
+      "type": "enumeration",
+      "enum": [
+        "manager",
+        "coordinator",
+        "crew",
+        "developer"
+      ]
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}
